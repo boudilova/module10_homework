@@ -43,7 +43,6 @@ const geoSccss = (position) => {
   writeToScreen(link,0);
 }
 
-
 geobtn.addEventListener('click', () => {
   if (!navigator.geolocation) {
     //status.textContent = 'Geolocation не поддерживается вашим браузером';
